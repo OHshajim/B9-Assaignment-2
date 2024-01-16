@@ -598,8 +598,13 @@ background: rgba(19, 19, 24, 0.10);
 
 
     }
+ .select{
+    width: 96%;
+ }
+     .Type{
+        width: 100%;
 
-     
+     }
 
 
     .tour-btn {
@@ -728,7 +733,7 @@ background: rgba(19, 19, 24, 0.10);
     }
 
     .tour-btn {
-        width: 100%;
+        width: 90%;
     }
     
     .popular-tour {
@@ -739,8 +744,12 @@ background: rgba(19, 19, 24, 0.10);
     .section-title {
         font-size: 1.2rem;
     }
-    
-    } 
+     .Type{
+        width: 95%;
+     }
+    .select{
+        width: 95%;
+    }
 
     .gallary {
         width: 100%;

@@ -1,23 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dream Travels</title>
     <link rel="stylesheet" href="./style/style.css">
-</head>
-<body>              
-                    <!-- header -->
-    <header>
+    <link rel="shortcut icon" href="./Images/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/569af0e486.js" crossorigin="anonymous"></script>
 
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="navigation-bar"> <!--nav -->
+            <div class="nav-title">
+                <div class="logo">
+                    <img src="./Images/logo.png" alt="plane logo">
+                </div>
+                <div>
+                    <h3>Dream <span class="orange">Travels</span></h3>
+                </div>
+            </div>
+            <div class="navigation">
+
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                    <i class="fa-solid fa-bars" style="color: #0c1833;"></i>
+                </label>
+                <ul>
+                    <li><a href=""><span class="home orange">Home</span></a></li>
+                    <li><a href="">Packages</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- bannar  -->
+        <div class="bannar">
+            <h1 class="bannar-title">Explore Your Travel</h1>
+            <p class="section-dis">Travel with joy <br>and <br> explore your self</p>
+
+            <div class="tour-info">
+
+
+                <input type="text" class="form-info" placeholder="Where go" required>
+
+                <div class="select">
+                    <select name="type of tour">
+                        <option disabled selected>When</option>
+                    </select>
+                </div>
+                
+                <div class="select">
+                    <select name="type of tour">
+                        <option disabled selected>Select Type</option>
+                        <option value="adventure">Adventure</option>
+                        <option value="beach">Beach</option>
+                        <option value="family">Family</option>
+                    </select>
+                </div>
+
+
+                <button type="submit" class=" tour-btn"><i class="fa-solid fa-magnifying-glass"
+                        style="color: #fffcfc;"></i> Find Now</button>
+
+
+            </div>
+        </div>
     </header>
-                    <!-- main -->
+    <!-- main -->
     <main>
+        <section class="popular-tour">
+            <div class="article">
+                <h3 class="section-title">Our Popular Tours</h3>
+                <p class="section-dis">Embark on an exhilarating mountain adventure with our specially curated tour,
+                    designed to immerse you in the awe-inspiring beauty of towering peaks and pristine landscapes. As
+                    you ascend through rugged trails and meandering paths, the air becomes crisp, and the panoramic
+                    views unveil nature's grandeur in all its glory.
+
+                </p>
+                <ul class="section-dis">
+                    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis
+                        erat at .</li>
+                    <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus
+                        suspendisse nullam.</li>
+                    <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+                </ul>
+                <p class="section-dis">Our mountain tour takes you to majestic summits, where snow-capped peaks glisten
+                    under the sunlight, and the sheer majesty of the surrounding valleys takes your breath away.
+                    Traverse through alpine meadows adorned with vibrant wildflowers, and experience the serenity of
+                    high-altitude lakes reflecting the clear blue sky.</p>
+                <button class="btn-primary">Read More</button>
+            </div>
+            <div class="tour-img">
+                <img src="./Images/Rectangle 4.png" alt="Mountain">
+            </div>
+        </section>
+        <section>
+            <div class="destination">
+                <h3 class="section-title">Choose Your Destination</h3>
+                <p class="section-dis">Consider your personal interests and preferences when choosing a destination, and
+                    you're sure to have a memorable and fulfilling travel experience .</p>
+            </div>
+            <div class="gallary">
+                <div class="card col-5"
+                    style="background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 5.png) ;background-repeat: no-repeat;">
+                    Maldives</div>
+
+                <div class="card col-5"
+                    style="background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 8.png);background-repeat: no-repeat;">
+                    Indonesia</div>
+
+                <div class="card col-3"
+                    style="background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 6.png);background-repeat: no-repeat;">
+                    Srilanka</div>
+
+                <div class="card col-5"
+                    style="background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 7.png);background-repeat: no-repeat;">
+                    North America</div>
+
+                <div class="card col-2 "
+                    style="background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 9.png);background-repeat: no-repeat;">
+                    Kashmir</div>
+
+                <div class="card col-4"
+                    style="background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 11.png);background-repeat: no-repeat;">
+                    Bangladesh</div>
+
+                <div class="card col-6"
+                    style="background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 10.png);background-repeat: no-repeat;">
+                    Bandarban</div>
+            </div>
+            </div>
+        </section>
+        <section class="choose-sec">
+            <h3 class="section-title">Why Choose Us</h3>
+            <p class="section-dis">Choose a travel agency that values personalized service. An agency that takes the
+                time to understand your preferences, interests, and travel style can create a customized itinerary that
+                suits your needs.</p>
+            <div class="service">
+                <div class="hotel">
+                    <i class="fa-solid fa-hotel"></i>
+                    <h4 class="chose-title">Handpicked Hotels</h4>
+                    <p class="section-dis">A good hotel should offer a range of facilities and amenities to enhance your
+                        stay. This could include a fitness center, swimming pool, spa services, on-site dining options,
+                        and more.</p>
+                </div>
+                <div class="map">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <h4 class="chose-title">World Class Service</h4>
+                    <p class="section-dis"> If you have specific travel interests or needs, consider agencies that
+                        specialize in those areas. Whether it's adventure travel, luxury vacations, or family-friendly
+                        trips, a specialized agency can cater to your unique requirements</p>
+
+                </div>
+            </div>
+            <div class="best-price">
+                <i class="fa-solid fa-tag"></i>
+                <h4 class="chose-title">Best Price Guarantee</h4>
+                <p class="section-dis">We strive to provide our customers with the best travel deals, ensuring you get
+                    the most value for your money</p>
+            </div>
+
+
+        </section>
+
+        <section class="deals">
+            <div class="deal">
+                <h3 class="section-title">Deals & Discounts</h3>
+                <p class="section-dis">Don't miss out on our exclusive limited-time deals. Book now to secure incredible
+                    discounts on your next adventure!</p>
+            </div>
+            <!--1st-offer  -->
+            <div class="deal-bg">
+                <div class="container-deal">
+                    <div class="info-detail">
+                        <div class="deal-i">
+                            <div>
+                                <i class="fa-solid fa-clock" style="color: #FF5400;"></i>
+                            </div>
+                            <p class="section-dis">7 Day / 6 Night</p>
+                        </div>
+                        <div class="deal-i">
+                            <div><i class="fa-solid fa-people-group" style="color: #FF5400;"></i>
+                            </div>
+                            <p class="section-dis">Max : 10</p>
+                        </div>
+                        <div class="deal-i">
+                            <div>
+                                <i class="fa-solid fa-plane" style="color: #FF5400;"> </i>
+                            </div>
+                            <p class="section-dis">Malaysia</p>
+                        </div>
+                    </div>
+                    <h3 class="deal-title">Tour To Satorini</h3>
+                    <p class="section-dis"> let the beauty of the Aegean captivate your soul</p>
+                    <h4 class="price-tag orange">Price: $1300-$1500</h4>
+                    <button class="btn-primary">Book Now</button>
+                </div>
+            </div>
+            <!--2nd offer  -->
+            <div class="deal-bg-2">
+                <div class="container-deal-2">
+                    <div class="info-detail">
+                        <div class="deal-i">
+                            <div>
+                                <i class="fa-solid fa-clock" style="color: #FF5400;"></i>
+                            </div>
+                            <p class="section-dis">5 Day / 4 Night</p>
+                        </div>
+                        <div class="deal-i">
+                            <div><i class="fa-solid fa-people-group" style="color: #FF5400;"></i>
+                            </div>
+                            <p class="section-dis">Max : 5</p>
+                        </div>
+                        <div class="deal-i">
+                            <div>
+                                <i class="fa-solid fa-plane" style="color: #FF5400;"> </i>
+                            </div>
+                            <p class="section-dis">Malaysia</p>
+                        </div>
+                    </div>
+                    <h3 class="deal-title">Tioman Island</h3>
+                    <p class="section-dis">Don't miss the chance to explore this Tioman Island.</p>
+                    <h4 class="price-tag orange">Price: $2000-$3000</h4>
+                    <button class="btn-primary">Book Now</button>
+                </div>
+            </div>
+            <!-- 3nd offer -->
+
+            <div class="deal-bg">
+                <div class="container-deal">
+                    <div class="info-detail">
+                        <div class="deal-i">
+                            <div>
+                                <i class="fa-solid fa-clock" style="color: #FF5400;"></i>
+                            </div>
+                            <p class="section-dis">7 Day / 6 Night</p>
+                        </div>
+                        <div class="deal-i">
+                            <div><i class="fa-solid fa-people-group" style="color: #FF5400;"></i>
+                            </div>
+                            <p class="section-dis">Max : 8</p>
+                        </div>
+                        <div class="deal-i">
+                            <div>
+                                <i class="fa-solid fa-plane" style="color: #FF5400;"> </i>
+                            </div>
+                            <p class="section-dis">Malaysia</p>
+                        </div>
+                    </div>
+                    <h3 class="deal-title">Perhentian Islands</h3>
+                    <p class="section-dis"> Secure your spot on our Perhentian Islands tour and let the beauty of the
+                        Aegean captivate your soul</p>
+                    <h4 class="price-tag orange">Price: $800-$1000</h4>
+                    <button class="btn-primary">Book Now</button>
+                </div>
+            </div>
+            <button class="btn-primary packages-btn">See All Packages</button>
+        </section>
+        <section class="video-sec">
+            <div>
+                <h3 class="section-title">A Simple Perfect Place To Get Lost</h3>
+                <p class="section-dis">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
+                    Libero commodo sagittis dignissim adipiscing quis. </p>
+                <ul>
+                    <li>the world fades away, leaving only the echoes of your own footsteps and the whispers of the
+                        wind, inviting you to immerse yourself in the enchantment of the unknown.</li>
+                    <li>it's the destination itself. It's a chance to reconnect with nature, find solace in solitude,
+                        and rediscover the beauty of the present moment.</li>
+                </ul>
+                <button class="btn-primary">See More</button>
+            </div>
+            <div>
+                <video controls src="./Images/Untitled project .mp4"></video>
+
+            </div>
+
+        </section>
+        <section class="Subscribe">
+            <div class="Newsletter">
+                <h4 class="letter">Newsletter</h4>
+                <p class="section-dic">Get your daily dose of travel news & tips. Sign up today!</p>
+                <hr>
+                <input type="text" placeholder="Enter your name" id="" required><br>
+                <input type="email" placeholder="Enter your email" id="" required><br>
+                <button class="sub-btn">Subscribe</button>
+            </div>
+            <div class="save-img">
+                <img src="./Images/Rectangle 8 (1).png" alt="">
+                <div class="save-up">
+                    <h4>Travel.com</h4>
+                    <h3>Save up to 70%</h3>
+                </div>
+            </div>
+        </section>
 
     </main>
-                    <!-- footer -->
+    <!-- footer -->
     <footer>
 
-    </footer>   
+    </footer>
 </body>
+
 </html>
